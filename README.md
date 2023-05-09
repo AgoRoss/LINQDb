@@ -26,3 +26,9 @@ foreach (var Artist in ArtistId)
     Console.WriteLine(ArtistId.Name);
 }
 ```
+
+per connettersi al database si usa questo comando:
+
+```csharp
+SQLiteConnection cn1 = new SQLiteConnection("chinook.db");
+```
